@@ -19,7 +19,7 @@ A full-stack web application that empowers users to enhance low-quality videos w
 
 ## 🎥 Demo
 
-<video width="640" controls>
+<video width="640" height="360" controls>
   <source src="Media/Demo.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
