@@ -1,4 +1,4 @@
-# AI-Driven Video Super-Resolution & Audio Denoising Platform
+# AI Video & Audio Enhancement Platform
 
 A full-stack web application that empowers users to enhance low-quality videos with super-resolution and synchronized audio denoising. Built on a modern React frontend and Flask backend, the platform streamlines every step—from user registration to media upload, AI-driven processing, and final download of restored outputs.
 
