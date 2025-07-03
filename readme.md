@@ -6,7 +6,6 @@ A full-stack web application that empowers users to enhance low-quality videos w
 
 ## 📑 Table of Contents
 
-- [Demo](#-demo)
 - [Technologies Used](#-technologies-used)
 - [System Architecture](#-system-architecture)
 - [Model Architectures](#-model-architectures)
@@ -14,15 +13,6 @@ A full-stack web application that empowers users to enhance low-quality videos w
 - [Getting Started](#-getting-started)
 - [Contributing](#-contributing)
 - [License](#-license)
-
----
-
-## 🎥 Demo
-
-<video width="640" height="360" controls>
-  <source src="Media/Demo.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
 
 ---
 
