@@ -1,6 +1,6 @@
 # AI Video & Audio Enhancement Platform
 
-A comprehensive platform for advanced audio processing using AI, featuring a robust backend, a modern frontend, and powerful AI models. The project is structured into three main components:
+A comprehensive platform for advanced video and audio processing using AI, featuring a robust backend, a modern frontend, and powerful AI models. The project is structured into three main components:
 
 - **AI Models**: RVRT, Demucs, and Flask-based endpoints (deployed on Kaggle Notebooks)
 - **Frontend**: React application
