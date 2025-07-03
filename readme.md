@@ -19,12 +19,10 @@ A full-stack web application that empowers users to enhance low-quality videos w
 
 ## 🎥 Demo
 
-```html
 <video width="640" controls>
-  <source src="media/Demo.mp4" type="video/mp4" />
+  <source src="Media/Demo.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
-```
 
 ---
 
@@ -39,7 +37,7 @@ A full-stack web application that empowers users to enhance low-quality videos w
 
 ## 🏗️ System Architecture
 
-!\[System Architecture]\(Media/System Architecture.png)
+![System Architecture](Media/System_Architecture.png)
 
 1. **Application Layer**
 
@@ -65,13 +63,13 @@ A full-stack web application that empowers users to enhance low-quality videos w
 
 ### Recurrent Video Restoration Transformer (RVRT)
 
-!\[RVRT Architecture]\(Media/RVRT Architecture.png)
+![RVRT Architecture](Media/RVRT_Architecture.png)
 
 At its core, the RVRT processes overlapping clips of frames through a shared Transformer. We introduced custom residual blocks—each comprising three 3D convolutional layers with LeakyReLU activations—inserted immediately before the upsampling stage. This modification enhances feature learning and yields significant quality gains without increasing model footprint. Additionally, our tile-based inference splits frames into 64×64 patches, halving peak GPU memory usage during upscaling.
 
 ### Demucs Audio Denoising Model
 
-!\[Demucs Architecture]\(Media/Demucs Architecture.png)
+![Demucs Architecture](Media/Demucs_Architecture.png)
 
 Demucs follows a U‑Net-like encoder–decoder structure with temporal convolutional modules in its bottleneck. We fine-tuned its weights on the Valentini‑noise dataset to optimize speech preservation and noise suppression. The skip connections between encoders and decoders bridge multi-resolution features, enabling precise waveform reconstruction.
 
@@ -84,19 +82,19 @@ Demucs follows a U‑Net-like encoder–decoder structure with temporal convolut
 
 To maintain visual clarity, results are summarized in tables for both video and audio models:
 
-![RVRT Results Table](Media/RVRT Results.png)
+![RVRT Results Table](Media/RVRT_Results.png)
 
 _Table 1: PSNR and SSIM improvements on REDS benchmark._
 
-![Demucs Results Table](Media/Demucs Results.png)
+![Demucs Results Table](Media/Demucs_Results.png)
 
 _Table 2: PESQ scores on Valentini‑noise and VoiceBank+DEMAND datasets._
 
 ### Video Super-Resolution Examples:
 
-![Image Before and After Video Super Resolution](Media/Visual Results 1.png)
+![Image Before and After Video Super Resolution](Media/Visual_Results_1.png)
 
-![Image Before and After Video Super Resolution](Media/Visual Results 2.png)
+![Image Before and After Video Super Resolution](Media/Visual_Results_2.png)
 
 ---
 
