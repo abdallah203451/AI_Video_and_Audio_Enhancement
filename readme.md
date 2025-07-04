@@ -1,6 +1,6 @@
 # AI Video & Audio Enhancement Platform
 
-A full-stack web application that empowers users to enhance low-quality videos with super-resolution and synchronized audio denoising. Built on a modern React frontend and Flask backend, the platform streamlines every step—from user registration to media upload, AI-driven processing, and final download of restored outputs.
+A full-stack web application that empowers users to enhance low-quality videos with super-resolution and synchronized audio denoising. Built on a modern React frontend and Java Spring Boot backend, the platform streamlines every step—from user registration to media upload, AI-driven processing, and final download of restored outputs.
 
 ---
 
@@ -32,7 +32,7 @@ A full-stack web application that empowers users to enhance low-quality videos w
 1. **Application Layer**
 
    - **React Frontend**: Handles user registration/login, video upload interface, and download of enhanced media.
-   - **Flask API**: Validates requests, manages user sessions, and enqueues processing jobs.
+   - **Java Spring Boot API**: Validates requests, manages user sessions, and enqueues processing jobs.
 
 2. **Model Layer**
 
