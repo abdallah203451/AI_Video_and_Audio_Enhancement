@@ -6,6 +6,7 @@ A full-stack web application that empowers users to enhance low-quality videos w
 
 ## 📑 Table of Contents
 
+- [Demo Video](#-Demo-video)
 - [Technologies Used](#-technologies-used)
 - [System Architecture](#-system-architecture)
 - [Model Architectures](#-model-architectures)
@@ -13,6 +14,12 @@ A full-stack web application that empowers users to enhance low-quality videos w
 - [Getting Started](#-getting-started)
 - [Contributing](#-contributing)
 - [License](#-license)
+
+---
+
+## Demo Video
+
+[![Watch the demo](Media/Demo_video.jpeg)](https://drive.google.com/file/d/10HfzDCK4dr4qMyW-kIkp4h4QEKCZEKuo/view?usp=sharing)
 
 ---
 
